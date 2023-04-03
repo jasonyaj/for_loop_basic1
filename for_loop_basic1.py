@@ -29,5 +29,6 @@ for n in range(2018, 0, -4):
 lowNum = 3
 highNum = 100
 mult = 3
-for n in range(lowNum, highNum, mult):
-    print(n)
+for n in range(lowNum, highNum +1):
+    if n % mult == 0:
+        print(n)
